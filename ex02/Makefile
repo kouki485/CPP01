@@ -1,9 +1,6 @@
-NAME	= zombie
+NAME	= brain
 
 SRCS	= main.cpp \
-		  newZombie.cpp \
-		  randomChump.cpp \
-		  Zombie.cpp
 
 OBJS		= $(SRCS:%.c=%.o)
 

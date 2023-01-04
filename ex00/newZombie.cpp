@@ -1,18 +1,6 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   newZombie.cpp                                      :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: kkohki <kkohki@student.42.fr>              +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/01 07:47:35 by kkohki            #+#    #+#             */
-/*   Updated: 2022/12/01 08:23:19 by kkohki           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "Zombie.hpp"
 
-Zombie *newZombie(std::string name)
+Zombie* newZombie( std::string name)
 {
-	return new Zombie(name);
+	return(new Zombie(name));
 }

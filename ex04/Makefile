@@ -1,9 +1,6 @@
-NAME	= zombie
+NAME	= file_operation
 
 SRCS	= main.cpp \
-		  newZombie.cpp \
-		  randomChump.cpp \
-		  Zombie.cpp
 
 OBJS		= $(SRCS:%.c=%.o)
 

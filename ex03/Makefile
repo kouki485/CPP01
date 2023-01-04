@@ -1,9 +1,9 @@
-NAME	= zombie
+NAME	= weapon
 
 SRCS	= main.cpp \
-		  newZombie.cpp \
-		  randomChump.cpp \
-		  Zombie.cpp
+		Weapon.cpp \
+		HumanA.cpp \
+		HumanB.cpp \
 
 OBJS		= $(SRCS:%.c=%.o)
 
